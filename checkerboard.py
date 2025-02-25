@@ -25,7 +25,7 @@ checkerboard = generate_checkerboard()
 
 ### Plot checkerboard
 plt.figure(figsize=(6,6))
-plt.imshow(checkerboard, cmap="gray", interpolation="nearest")
+plt.imshow(checkerboard, cmap="viridis", interpolation="nearest")
 plt.axis("off")
 plt.title("A Checkerboard Pattern")
 plt.show()
