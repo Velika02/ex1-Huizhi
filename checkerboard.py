@@ -13,8 +13,7 @@ def generate_checkerboard(size=64, num_squares=8):
          for i in range(num_squares):
              for j in range(num_squares):
                  if (i + j) % 2 == 0:
-                     image[i * block_size:(i + 1) * block_size, j * block_size:>
- + 1) * block_size] = 1
+                     image[i * block_size:(i + 1) * block_size, j * block_size:(j + 1) * block_size] = 1
 
          return image
 
