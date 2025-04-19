@@ -1,5 +1,6 @@
 # DS5105 Exercise 2
-# This line is from the conflict-test branch
+# Final version after merge conflict resolved
+
 This project estimates the causal effect of a carbon offset program using linear regression,
 and provides a Flask API to predict stakeholder engagement scores in a reproducible containerized environment.
 It also added the "attempt 'resolving a merge conflict'" question that was not completed in Exercise 1.
