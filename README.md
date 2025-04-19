@@ -1,15 +1,16 @@
-# DS5105 Exercise 2 (Optimized Version)
+# DS5105 Exercise 2
 
 This project estimates the causal effect of a carbon offset program using linear regression,
 and provides a Flask API to predict stakeholder engagement scores in a reproducible containerized environment.
+It also added the "attempt 'resolving a merge conflict'" question that was not completed in Exercise 1.
 
-## 📌 Assumptions for Causal Interpretation (Rubin Causal Model)
+## Assumptions for Causal Interpretation (Rubin Causal Model)
 The estimated ATE (τ̂) can be interpreted as causal under these assumptions:
-1. **Unconfoundedness**: Treatment assignment is independent of potential outcomes.
-2. **SUTVA**: No interference between units, and consistent treatment definition.
-3. **Overlap**: Each unit has a non-zero probability of receiving treatment or control.
+1. Unconfoundedness: Treatment assignment is independent of potential outcomes.
+2. SUTVA: No interference between units, and consistent treatment definition.
+3. Overlap: Each unit has a non-zero probability of receiving treatment or control.
 
-## 📊 Contents
+## Contents
 - `regression_analysis.py`: Compares models with and without covariates, saves trained model, and plots residuals.
 - `app.py`: Flask API exposing both GET and POST prediction endpoints.
 - `data/engagement_data.csv`: Input dataset.
@@ -18,7 +19,7 @@ The estimated ATE (τ̂) can be interpreted as causal under these assumptions:
 - `requirements.txt`: Required Python packages.
 - `Dockerfile`: For containerization.
 
-## 🚀 How to Use
+## How to Use
 1. Train the model:
 ```
 python regression_analysis.py
