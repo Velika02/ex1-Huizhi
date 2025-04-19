@@ -41,7 +41,7 @@ POST /predict
 { "W": 1, "X": 20 }
 ```
 
-## ✅ Bonus Features
+##Bonus Features
 - Model comparison: With/without covariate.
 - Residual plot to validate regression assumptions.
 - Input validation and POST/GET support in API.
